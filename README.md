@@ -6,7 +6,7 @@ It’s built with Streamlit for the interface and OpenAI models for generating t
 goal: make it easier for GPT support teams and businesses to spot problems, trends, and customer pain points without digging through thousands of lines of feedback manually.
 
 
-## How it Works
+How it Works
 
 - Reads support ticket data from a CSV file
 - Uses OpenAI to create short, clear summaries
@@ -14,7 +14,7 @@ goal: make it easier for GPT support teams and businesses to spot problems, tren
 - Outputs summaries into a `.txt` file for saving or further review
 
 
-## Getting Started
+Getting Started
 
 ### 1. Clone the project
 ```bash
