@@ -1,9 +1,9 @@
 # SupportForChat
 
-**SupportForChat** is a lightweight tool that helps teams quickly summarize and analyze customer support tickets using AI.
+**SupportForChat** is a lightweight tool that helps teams quickly summarize and analyze ChatGPT customer support tickets using AI.
 It’s built with Streamlit for the interface and OpenAI models for generating the ticket summaries.
 
-The goal is simple: make it easier for support teams and businesses to spot problems, trends, and customer pain points without digging through thousands of lines of feedback manually.
+goal: make it easier for GPT support teams and businesses to spot problems, trends, and customer pain points without digging through thousands of lines of feedback manually.
 
 ---
 
