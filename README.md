@@ -5,16 +5,14 @@ It’s built with Streamlit for the interface and OpenAI models for generating t
 
 goal: make it easier for GPT support teams and businesses to spot problems, trends, and customer pain points without digging through thousands of lines of feedback manually.
 
-
-How it Works
+## How it Works
 
 - Reads support ticket data from a CSV file
 - Uses OpenAI to create short, clear summaries
 - Displays everything in an easy-to-use web app (Streamlit)
 - Outputs summaries into a `.txt` file for saving or further review
 
-
-Getting Started
+## Getting Started
 
 ### 1. Clone the project
 ```bash
@@ -39,8 +37,6 @@ You'll need an OpenAI API key to run the app. Set it in your terminal like this:
 export OPENAI_API_KEY=your_api_key_here   # (Windows: set OPENAI_API_KEY=your_api_key_here)
 ```
 
-
-
 ## Running the App
 
 Once everything’s installed, just run:
@@ -54,7 +50,6 @@ If you don't have support ticket data, you can generate a dummy dataset for test
 python generate_data.py
 ```
 
-
 ## Project Layout
 
 ```
@@ -66,20 +61,14 @@ SupportForChat/
 ├── summaries.txt           # Output file with summaries
 ```
 
-
-
 ## Why I Built This
 
 Handling customer feedback manually is time-consuming.
 This tool was made to speed up that process by using AI — so businesses can focus more on solving issues and less on reading endless tickets.
 
-
-
 ## License
 
 MIT License – free to use, change, or build on.
-
-
 
 ## Future Ideas
 
@@ -87,7 +76,6 @@ MIT License – free to use, change, or build on.
 - Visualize ticket trends (common topics, keywords)
 - Automatic tagging and categorization
 - Real-time integration with support platforms
-
 
 If you have suggestions or run into any problems, feel free to open an issue!
 
